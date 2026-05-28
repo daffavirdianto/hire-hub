@@ -45,12 +45,6 @@ Akses:
   - User: `sa`
   - Password: kosong
 
-
-## Menjalankan Test
-```powershell
-./mvnw.cmd test
-```
-
 ## application.properties
 ```powershell
 spring.application.name=pelindo
