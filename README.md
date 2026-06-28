@@ -45,9 +45,27 @@ Akses:
   - User: `sa`
   - Password: kosong
 
-
-## Menjalankan Test
+## application.properties
 ```powershell
-./mvnw.cmd test
-```
+spring.application.name=pelindo
 
+# Local default profile uses H2 for quick setup.
+#spring.datasource.url=jdbc:h2:mem:pelindo;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+#spring.datasource.username=sa
+#spring.datasource.password=
+#spring.datasource.driver-class-name=org.h2.Driver
+
+# MySQL configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/pelindo?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Jakarta
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.format_sql=true
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+```
