@@ -1,8 +1,8 @@
-package org.jamkrindo.pelindo.controller;
+package org.internal.hire.controller;
 
 import jakarta.validation.Valid;
-import org.jamkrindo.pelindo.dto.SignupForm;
-import org.jamkrindo.pelindo.service.AuthService;
+import org.internal.hire.dto.SignupForm;
+import org.internal.hire.service.AuthService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

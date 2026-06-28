@@ -1,13 +1,13 @@
-package org.jamkrindo.pelindo.service;
+package org.internal.hire.service;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.jamkrindo.pelindo.entity.Biodata;
-import org.jamkrindo.pelindo.entity.PendidikanTerakhir;
-import org.jamkrindo.pelindo.entity.RiwayatPekerjaan;
-import org.jamkrindo.pelindo.entity.RiwayatPelatihan;
-import org.jamkrindo.pelindo.entity.User;
-import org.jamkrindo.pelindo.repository.BiodataRepository;
+import org.internal.hire.entity.Biodata;
+import org.internal.hire.entity.PendidikanTerakhir;
+import org.internal.hire.entity.RiwayatPekerjaan;
+import org.internal.hire.entity.RiwayatPelatihan;
+import org.internal.hire.entity.User;
+import org.internal.hire.repository.BiodataRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

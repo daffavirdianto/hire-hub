@@ -1,4 +1,4 @@
-package org.jamkrindo.pelindo.entity;
+package org.internal.hire.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;

@@ -13,7 +13,7 @@ Aplikasi Spring Boot + Thymeleaf untuk:
 
 ## Akun Default
 - Admin:
-  - Email: `admin@pelindo.test`
+  - Email: `admin@hire-hub.test`
   - Password: `admin123`
 
 ## Konfigurasi Database (H2 atau MySQL)
@@ -41,7 +41,7 @@ Catatan:
 Akses:
 - App: `http://localhost:8080`
 - H2 Console (hanya jika H2 aktif): `http://localhost:8080/h2-console`
-  - JDBC URL: `jdbc:h2:mem:pelindo`
+  - JDBC URL: `jdbc:h2:mem:hire-hub`
   - User: `sa`
   - Password: kosong
 

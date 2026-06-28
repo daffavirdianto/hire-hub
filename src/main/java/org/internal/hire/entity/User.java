@@ -1,4 +1,4 @@
-package org.jamkrindo.pelindo.entity;
+package org.internal.hire.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

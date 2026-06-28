@@ -1,4 +1,4 @@
-package org.jamkrindo.pelindo.config;
+package org.internal.hire.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

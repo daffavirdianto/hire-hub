@@ -1,4 +1,4 @@
-package org.jamkrindo.pelindo.entity;
+package org.internal.hire.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -10,8 +10,8 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "riwayat_pelatihan")
-public class RiwayatPelatihan {
+@Table(name = "riwayat_pekerjaan")
+public class RiwayatPekerjaan {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,8 +21,9 @@ public class RiwayatPelatihan {
     @JoinColumn(name = "biodata_id", nullable = false)
     private Biodata biodata;
 
-    private String namaKursus;
-    private String sertifikat;
+    private String namaPerusahaan;
+    private String posisiTerakhir;
+    private String pendapatanTerakhir;
     private String tahun;
 
     public Long getId() {
@@ -37,20 +38,28 @@ public class RiwayatPelatihan {
         this.biodata = biodata;
     }
 
-    public String getNamaKursus() {
-        return namaKursus;
+    public String getNamaPerusahaan() {
+        return namaPerusahaan;
     }
 
-    public void setNamaKursus(String namaKursus) {
-        this.namaKursus = namaKursus;
+    public void setNamaPerusahaan(String namaPerusahaan) {
+        this.namaPerusahaan = namaPerusahaan;
     }
 
-    public String getSertifikat() {
-        return sertifikat;
+    public String getPosisiTerakhir() {
+        return posisiTerakhir;
     }
 
-    public void setSertifikat(String sertifikat) {
-        this.sertifikat = sertifikat;
+    public void setPosisiTerakhir(String posisiTerakhir) {
+        this.posisiTerakhir = posisiTerakhir;
+    }
+
+    public String getPendapatanTerakhir() {
+        return pendapatanTerakhir;
+    }
+
+    public void setPendapatanTerakhir(String pendapatanTerakhir) {
+        this.pendapatanTerakhir = pendapatanTerakhir;
     }
 
     public String getTahun() {

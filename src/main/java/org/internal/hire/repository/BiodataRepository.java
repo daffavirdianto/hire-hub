@@ -1,8 +1,8 @@
-package org.jamkrindo.pelindo.repository;
+package org.internal.hire.repository;
 
 import java.util.List;
 import java.util.Optional;
-import org.jamkrindo.pelindo.entity.Biodata;
+import org.internal.hire.entity.Biodata;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

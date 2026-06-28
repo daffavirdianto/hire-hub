@@ -1,8 +1,8 @@
-package org.jamkrindo.pelindo.config;
+package org.internal.hire.config;
 
-import org.jamkrindo.pelindo.entity.User;
-import org.jamkrindo.pelindo.entity.Role;
-import org.jamkrindo.pelindo.repository.UserRepository;
+import org.internal.hire.entity.User;
+import org.internal.hire.entity.Role;
+import org.internal.hire.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -18,7 +18,7 @@ public class DataInitializer {
     @Bean
     CommandLineRunner initAdmin(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         return args -> {
-            String adminEmail = "admin@pelindo.test";
+            String adminEmail = "admin@hire-hub.test";
             if (!userRepository.existsByEmail(adminEmail)) {
                 User admin = new User();
                 admin.setEmail(adminEmail);

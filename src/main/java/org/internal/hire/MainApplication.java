@@ -1,13 +1,13 @@
-package org.jamkrindo.pelindo;
+package org.internal.hire;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PelindoApplication {
+public class MainApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PelindoApplication.class, args);
+        SpringApplication.run(MainApplication.class, args);
     }
 
 }

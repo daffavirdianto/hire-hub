@@ -1,9 +1,9 @@
-package org.jamkrindo.pelindo.controller;
+package org.internal.hire.controller;
 
 import jakarta.validation.Valid;
 import java.util.List;
-import org.jamkrindo.pelindo.entity.Biodata;
-import org.jamkrindo.pelindo.service.BiodataService;
+import org.internal.hire.entity.Biodata;
+import org.internal.hire.service.BiodataService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

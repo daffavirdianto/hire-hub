@@ -1,7 +1,7 @@
-package org.jamkrindo.pelindo.service;
+package org.internal.hire.service;
 
-import org.jamkrindo.pelindo.entity.User;
-import org.jamkrindo.pelindo.repository.UserRepository;
+import org.internal.hire.entity.User;
+import org.internal.hire.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

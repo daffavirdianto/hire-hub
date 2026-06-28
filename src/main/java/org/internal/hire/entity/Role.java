@@ -1,4 +1,4 @@
-package org.jamkrindo.pelindo.entity;
+package org.internal.hire.entity;
 
 public enum Role {
     USER,

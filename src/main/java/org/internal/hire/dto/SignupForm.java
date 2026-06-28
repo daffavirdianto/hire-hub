@@ -1,4 +1,4 @@
-package org.jamkrindo.pelindo.dto;
+package org.internal.hire.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
